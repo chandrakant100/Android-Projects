@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/Register"
+        android:layout_width="364dp"
+        android:layout_height="67dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="30dp"
+        android:text="@string/registration_form"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Register"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="63dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:autofillHints=""
+        android:background="#20ffffff"
+        android:drawableStart="@drawable/baseline_person_24"
+        android:drawablePadding="20dp"
+        android:hint="@string/student_name"
+        android:inputType="text"
+        android:padding="15dp"
+        android:textColorHint="@color/white"
+        tools:ignore="TextFields,VisualLintTextFieldSize" />
+
+    <TextView
+        android:id="@+id/dob"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/name"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:autofillHints=""
+        android:background="#20ffffff"
+        android:drawableStart="@drawable/baseline_person_24"
+        android:drawablePadding="20dp"
+        android:hint="@string/dd_mm_yyyy"
+        android:inputType="text"
+        android:padding="15dp"
+        android:textColorHint="@color/white" />
+
+    <EditText
+        android:id="@+id/add"
+        android:layout_width="401dp"
+        android:layout_height="107dp"
+        android:layout_below="@id/dob"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:autofillHints=""
+        android:background="#20ffffff"
+        android:drawableStart="@drawable/baseline_article_24"
+        android:drawablePadding="20dp"
+        android:hint="@string/address"
+        android:inputType="textLongMessage"
+        android:padding="15dp"
+        android:textColorHint="@color/white" />
+
+    <Button
+        android:id="@+id/click"
+        android:layout_width="136dp"
+        android:layout_height="70dp"
+        android:layout_below="@+id/add"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="123dp"
+        android:layout_marginEnd="120dp"
+        android:text="@string/submit"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+</RelativeLayout>

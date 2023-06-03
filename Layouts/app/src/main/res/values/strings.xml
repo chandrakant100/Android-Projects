@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">HOME</string>
+    <string name="todo">TODO</string>
+    <string name="gallery">Gallery</string>
+    <string name="selfie">Selfie</string>
+    <string name="home">HOME</string>
+</resources>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Secure Login</string>
+    <string name="registration_form">LOGIN</string>
+    <string name="submit">SUBMIT</string>
+    <string name="address">Address</string>
+    <string name="dd_mm_yyyy">DD/MM/YYYY</string>
+    <string name="student_name">Name</string>
+</resources>
